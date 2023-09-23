@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2999.FXMLS1Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #0000CC;" VBox.vgrow="ALWAYS">
+      <children>
+            <Text fill="WHITE" layoutX="69.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Money Maker 3000" textAlignment="CENTER" wrappingWidth="522.2216796875">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="firstBtn" layoutX="181.0" layoutY="147.0" mnemonicParsing="false" onAction="#switchScene" prefHeight="53.0" prefWidth="298.0" text="Save That Money">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <ImageView fitHeight="163.0" fitWidth="200.0" layoutX="14.0" layoutY="227.0">
+               <image>
+                  <Image url="@../../../Downloads/ori_4093590_s1ezu4837mkzra9ho8tc7p7l9ag8gnm6lkataq2v_cartoon-money-bag-dollar-cash-stack-and-gold-coins-bundle-of-banknot.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="163.0" fitWidth="200.0" layoutX="220.0" layoutY="227.0">
+               <image>
+                  <Image url="@../../../Downloads/ori_4093590_s1ezu4837mkzra9ho8tc7p7l9ag8gnm6lkataq2v_cartoon-money-bag-dollar-cash-stack-and-gold-coins-bundle-of-banknot.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="163.0" fitWidth="200.0" layoutX="426.0" layoutY="227.0">
+               <image>
+                  <Image url="@../../../Downloads/ori_4093590_s1ezu4837mkzra9ho8tc7p7l9ag8gnm6lkataq2v_cartoon-money-bag-dollar-cash-stack-and-gold-coins-bundle-of-banknot.jpg" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
